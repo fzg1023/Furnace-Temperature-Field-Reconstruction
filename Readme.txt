@@ -10,3 +10,22 @@ This document primarily concerns the reconstruction iterations of the Hybrid RBF
 4.buildHybridRBFDesign and buildRBFDesign are programs for constructing radial basis function (RBF) design matrices.
 
 5.solveSVD_RBF is the program implementing the SVD‑based solution method for the RBF approach.
+
+ Citation
+
+If you find thiis work is helpful for your research, please consider citing:
+
+@article{Feng_2026,
+doi = {10.1088/1361-6501/ae7a9e},
+url = {https://doi.org/10.1088/1361-6501/ae7a9e},
+year = {2026},
+month = {jun},
+publisher = {IOP Publishing},
+volume = {37},
+number = {25},
+pages = {255901},
+author = {Feng, Zhigang and Li, Qifei},
+title = {Design of an acoustic thermometry system based on time-delay estimation optimization and hybrid radial basis function temperature field reconstruction},
+journal = {Measurement Science and Technology},
+abstract = {Power plant boiler furnace temperature field distribution is key to constructing strategy control and safeguard monitoring. Existing acoustic-based boiler temperature field reconstruction methods suffer from missing boundary information and predominantly rely on straight-line assumptions for acoustic paths, resulting in severe distortion of the reconstructed results. At low signal-to-noise ratios, the calculation of cross-correlation delay is subject to pseudo peak interference, and the acoustic delay position is prone to errors, thereby affecting the reliable calculation of acoustic time of flight. Thus, a temperature field reconstruction method is proposed for real combustion condition in boiler. To solve noise separation, an attenuation factor is introduced to suppress the noise interference of peak localization in cross-correlation calculation. Moreover, in view of the acoustic ray refraction effect, this paper proposes a hybrid radial basis function model combined with polynomial reproduction (Hybrid RBF-PR) for temperature field reconstruction, which incorporates wall temperature constraints into the model equations through trust factors to achieve regularized solutions. The simulation results indicate that this method significantly reduces reconstruction errors in boundary regions while maintaining the accuracy of overall temperature distribution trends. Currently, this solution has been implemented in the boiler of Unit #2 at Shaanxi Fugu Power Plant. Experimental tests confirm that the solution can accurately characterize the temperature distribution under various operating conditions, demonstrating the engineering applicability of the temperature field reconstruction method. This holds substantial application value and economic significance for power plant safety operations and combustion strategy formulation.}
+}
