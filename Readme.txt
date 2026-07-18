@@ -13,7 +13,7 @@ This document primarily concerns the reconstruction iterations of the Hybrid RBF
 
  Citation
 
-If you find thiis work is helpful for your research, please consider citing:
+If you find this work is helpful for your research, please consider citing:
 
 @article{Feng_2026,
 doi = {10.1088/1361-6501/ae7a9e},
