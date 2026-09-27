@@ -15,6 +15,8 @@ This document primarily concerns the reconstruction iterations of the Hybrid RBF
 
 If you find this work is helpful for your research, please consider citing:
 
+Zhigang Feng, Qifei Li, “Design of an acoustic thermometry system based on time-delay estimation optimization and hybrid radial basis function temperature field reconstruction,” Meas. Sci. Technol., vol. 37, no. 25, art. no. 255901, Jun. 2026, doi: 10.1088/1361-6501/ae7a9e.
+
 @article{Feng_2026,
 doi = {10.1088/1361-6501/ae7a9e},
 url = {https://doi.org/10.1088/1361-6501/ae7a9e},
