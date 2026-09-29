@@ -374,6 +374,4 @@ If you find this work helpful for your research, please consider citing:
 
 ---
 
-*This README was compiled from the original `Readme.txt` and the paper. The figures under
-`figures/` were auto-cropped from the paper PDF by `tools/render_figures.py`; copyright remains
-with the original authors and IOP Publishing.*
+
