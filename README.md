@@ -162,19 +162,6 @@ $$
 Because of the strong temperature gradient inside the furnace, sound rays bend according to
 **Fermat's principle**; the curved paths are obtained iteratively from the Euler-Lagrange equation:
 
-```mermaid
-flowchart TD
-    A([Start]) --> B["Acquire acoustic signals on 24 paths"]
-    B --> C["Estimate TOF (time-delay estimation)"]
-    C --> D["Reconstruct initial field T0 using straight paths L0"]
-    D --> E["Build ray-bending model from T0, solve refracted paths L1"]
-    E --> F["Reconstruct field T1 using curved paths L1"]
-    F --> G["Solve refracted paths L2 from T1, reconstruct field T2"]
-    G --> H{"abs(T2 - T1) &lt; theta ?"}
-    H -- "No, set T1 = T2" --> G
-    H -- Yes --> I["Output T2"]
-    I --> J([End])
-```
 
 <p align="center">
   <img src="figures/fig01_flowchart.png" alt="Temperature field reconstruction process" width="46%">
